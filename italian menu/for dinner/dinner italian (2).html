@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italian Dinner Menu</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .menu {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-top: 10px solid green;
+      border-bottom: 10px solid red;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #444;
+      font-size: 24px;
+      border-left: 6px solid #4CAF50;
+      padding-left: 10px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+    }
+
+    img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .text {
+      flex: 1;
+    }
+
+    .dish {
+      font-weight: bold;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .description {
+      color: #666;
+      font-size: 15px;
+    }
+
+    .home-link {
+      text-align: right;
+      margin-top: 30px;
+    }
+
+    .home-link img {
+      width: 50px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <h1>Italian Dinner Menu</h1>
+
+    <div class="section">
+      <h2>Antipasti</h2>
+      <ul>
+        <li>
+          <img src="Bruschetta al Pomodoro.jpeg" alt="Bruschetta">
+          <div class="text">
+            <div class="dish">Bruschetta al Pomodoro</div>
+            <div class="description">Toasted bread topped with diced tomatoes, garlic, basil, and olive oil</div>
+          </div>
+        </li>
+        <li>
+          <img src="Carpaccio di Manzo.jpeg" alt="Carpaccio">
+          <div class="text">
+            <div class="dish">Carpaccio di Manzo</div>
+            <div class="description">Thinly sliced raw beef with arugula, Parmesan, and lemon vinaigrette</div>
+          </div>
+        </li>
+        <li>
+          <img src="Insalata di Mare.jpeg" alt="Insalata di Mare">
+          <div class="text">
+            <div class="dish">Insalata di Mare</div>
+            <div class="description">Seafood salad with shrimp, calamari, mussels, and lemon dressing</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Primi Piatti</h2>
+      <ul>
+        <li>
+          <img src="Risotto ai Funghi Porcini.jpeg" alt="Risotto">
+          <div class="text">
+            <div class="dish">Risotto ai Funghi Porcini</div>
+            <div class="description">Creamy risotto with porcini mushrooms, garlic, and white wine</div>
+          </div>
+        </li>
+        <li>
+          <img src="Gnocchi alla Sorrentina.jpeg" alt="Gnocchi">
+          <div class="text">
+            <div class="dish">Gnocchi alla Sorrentina</div>
+            <div class="description">Potato dumplings baked with tomato sauce, mozzarella, and basil</div>
+          </div>
+        </li>
+        <li>
+          <img src="Linguine alle Vongole.jpeg" alt="Linguine">
+          <div class="text">
+            <div class="dish">Linguine alle Vongole</div>
+            <div class="description">Linguine pasta with clams, garlic, white wine, and parsley</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Secondi Piatti</h2>
+      <ul>
+        <li>
+          <img src="Pollo alla Parmigiana.jpeg" alt="Pollo alla Parmigiana">
+          <div class="text">
+            <div class="dish">Pollo alla Parmigiana</div>
+            <div class="description">Breaded chicken breast with marinara sauce and mozzarella</div>
+          </div>
+        </li>
+        <li>
+          <img src="Bistecca alla Fiorentina.jpeg" alt="Bistecca">
+          <div class="text">
+            <div class="dish">Bistecca alla Fiorentina</div>
+            <div class="description">Grilled T-bone steak with olive oil, salt, and pepper</div>
+          </div>
+        </li>
+        <li>
+          <img src="Pesce al Forno.jpeg" alt="Pesce al Forno">
+          <div class="text">
+            <div class="dish">Pesce al Forno</div>
+            <div class="description">Oven-baked fish fillet with lemon, garlic, and herbs</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contorni</h2>
+      <ul>
+        <li>
+          <img src="Patate Arrosto.jpeg" alt="Patate">
+          <div class="text">
+            <div class="dish">Patate Arrosto</div>
+            <div class="description">Roasted potatoes with rosemary and garlic</div>
+          </div>
+        </li>
+        <li>
+          <img src="Verdure Grigliate.jpeg" alt="Verdure">
+          <div class="text">
+            <div class="dish">Verdure Grigliate</div>
+            <div class="description">Grilled vegetables with olive oil and balsamic glaze</div>
+          </div>
+        </li>
+        <li>
+          <img src="Rucola e Pomodoro.jpeg" alt="Rucola">
+          <div class="text">
+            <div class="dish">Rucola e Pomodoro</div>
+            <div class="description">Arugula and tomato salad with lemon vinaigrette</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Dolci</h2>
+      <ul>
+        <li>
+          <img src="Tiramisu.jpeg" alt="Tiramisu">
+          <div class="text">
+            <div class="dish">Tiramisu</div>
+            <div class="description">Coffee-soaked ladyfingers with mascarpone cream</div>
+          </div>
+        </li>
+        <li>
+          <img src="Panna Cotta.jpeg" alt="Panna Cotta">
+          <div class="text">
+            <div class="dish">Panna Cotta</div>
+            <div class="description">Creamy custard dessert served with berry compote</div>
+          </div>
+        </li>
+        <li>
+          <img src="Gelato.jpeg" alt="Gelato">
+          <div class="text">
+            <div class="dish">Gelato</div>
+            <div class="description">Assorted flavors of Italian ice cream</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="home-link">
+      <a href="../main menu/main menu.html">
+        <img src="home.png" alt="Home">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
